@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>KIM SUN KYEONG</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">KIM <span>SUN KYEONG</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="moreinfo.html">More Info</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<div id="main">
+				<section class="wrapper style1">
+					<div class="inner">
+
+						<header class="align-center">
+							<h3>KIM SUN KYEONG</h3>
+							<p>BEAUTY COUNSELOR</p>
+						</header>
+
+						<!-- Elements -->
+							<div class="row 200%">
+								<div class="6u 12u$(medium)">
+
+									<!-- Table -->
+										<h3>PRICING PLAN</h3>
+
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>LEVEL</th>
+														<th>CONSULTING</th>
+														<th>PRICE</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Standard</td>
+														<td>How to be Attractive</td>
+														<td>$80.25/1hr</td>
+													</tr>
+													<tr>
+														<td>Extended</td>
+														<td>True Relationship</td>
+														<td>$90.07/1hr</td>
+													</tr>
+													<tr>
+														<td>VIP</td>
+														<td>Absolute Beauty</td>
+														<td>$900.13/1hr</td>
+													</tr>
+													
+												</tbody>
+												
+											</table>
+										</div>
+
+										
+								</div>
+								<div class="6u$ 12u$(medium)">
+
+
+								<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+								    <script type="text/javascript">
+								        (function() {
+								            // https://dashboard.emailjs.com/admin/integration
+								            emailjs.init('user_YthCiCZDGxPLUV4y0KBDF');
+								        })();
+								 </script>
+								
+								    
+								    <script type="text/javascript">
+								        window.onload = function() 
+								        {
+								            document.getElementById('contact-form').addEventListener('submit', function(event) 
+								            		{
+								                event.preventDefault();
+								                emailjs.sendForm('Gmail2', 'template_dfhpe48', this)
+								                    .then(
+								                    		function() 		{ alert('Submit Success!'); }, 
+								                    		function(error) { alert('Submit Failed, Please Try Again', error);
+								                        
+								                    });
+								            });
+								        }
+									
+								       
+								        
+								 </script>
+
+
+
+									<!-- Form -->
+										<h3>CONTACT</h3>
+
+										<form id="contact-form" method="post" action="#">
+											<div class="row uniform">
+												<div class="6u 12u$(xsmall)">
+													<input type="text" name="name" id="name" value="" placeholder="Name" />
+												</div>
+												<div class="6u$ 12u$(xsmall)">
+													<input type="email" name="email" id="email" value="" placeholder="Email" />
+												</div>
+												<!-- Break -->
+												<div class="12u$">
+													<div class="select-wrapper">
+														<select name="category" id="category">
+															<option value="Please Select">Please Select...</option>
+															<option value="LOVE">L O V E</option>
+															<option value="BEAUTY">B E A U T Y</option>
+															<option value="REALATIONSHIP">R E A L A T I O N S H I P</option>
+														<select>
+													</div>
+												</div>
+																							
+												<!-- Break -->
+												<div class="12u$">
+													<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<!-- Break -->
+												<div class="12u$">
+													<ul class="actions">
+														<li><input type="submit" value="Send Email" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+
+																
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+					<ul class="icons">
+						<li><a href="https://instagram.com/xuanjiong_" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+					<p>&copy; PHW. All rights reserved. <a href="https://printfpark.github.io/aipark">Love KSK</a></p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
